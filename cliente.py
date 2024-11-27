@@ -1,10 +1,11 @@
 import datetime
 import time
 import Pyro5.api
-
+HOST = "10.20.137.91"
+PORT = 9091
 def main():
     # Conectar con el servidor 
-    timeserver = Pyro5.api.Proxy("PYRONAME:timeserver")
+    timeserver = Pyro5.api.Proxy(f"PYRONAME:timeserver@{HOST}:{PORT}")
 
     print("Obteniendo hora del servidor...")
 

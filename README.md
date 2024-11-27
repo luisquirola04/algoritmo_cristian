@@ -7,4 +7,4 @@ Simule un cliente y un servidor con relojes inicializados a diferentes tiempos.
 
 Calcule el retraso de red y sincronice el reloj del cliente utilizando el algoritmo.
 
-Explique el funcionamiento del programa. Además, deben presentar el retraso o adelanto del reloj, cómo la latencia de red afecta la precisión del algoritmo. El programa debe indicar el procedimiento del algoritmo
+Explique el funcionamiento del programa. Además, deben presentar el retraso o adelanto del reloj, cómo la latencia de red afecta la precisión del algoritmo. El programa debe indicar el procedimiento del algoritmo    
