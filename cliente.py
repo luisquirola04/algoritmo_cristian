@@ -2,7 +2,7 @@ import datetime
 import time  # Importar para manejar la espera
 import Pyro5.api
 
-HOST = "192.168.1.60"
+HOST = "192.168.1.61" ##editar ip, con la ip del host a conectarse
 
 def main():
     # Conectar con el servidor 
