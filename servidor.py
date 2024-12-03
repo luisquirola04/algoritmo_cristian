@@ -2,8 +2,8 @@ import datetime
 import Pyro5.api
 
 
-HOST = "192.168.1.60"
-PORT = 9090
+HOST = "192.168.1.61" ##editar ip, con la ip del host a conectarse
+
 
 @Pyro5.api.expose
 class TimeServer:
