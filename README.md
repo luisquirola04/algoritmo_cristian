@@ -11,9 +11,16 @@ Explique el funcionamiento del programa. Además, deben presentar el retraso o a
 
 PARA QUE SIRVA EL PROYECTO SE DEBE CREAR UN ENTORNO VIRTUAL  -> activarlo -> instalar dependencias -> ejecutar el coomando de nameserver -> ejecutar los archivos con el entorno activo
 
+
+
 python3 -m venv entorno_name
+
 source entorno_name/bin/activate
+
 pip install requirements.txt
+
 python3 -m Pyro5.nameserver --host tuip 
+
 python3 servidor.py
+
 python3 cliente.py
